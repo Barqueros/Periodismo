@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sevilla - La Joya de Andalucía</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #c0392b;
+            color: white;
+            padding: 30px 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        p {
+            max-width: 800px;
+            margin: 20px auto;
+            line-height: 1.6;
+            font-size: 1.2em;
+            color: #555;
+        }
+        .content-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .media-box {
+            margin-top: 25px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
+            height: 0;
+            overflow: hidden;
+            border-radius: 6px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sevilla: Arte, Historia y Pasión</h1>
+    </header>
+
+    <div class="content-container">
+        <p>
+            Sevilla es una ciudad mágica situada en el sur de España, capital de la región de Andalucía. Es mundialmente conocida por su alegría, su impresionante patrimonio histórico como la Giralda, la Catedral y el Real Alcázar, y por ser la cuna del flamenco y de tradiciones únicas como su famosa Feria de Abril.
+        </p>
+
+        <div class="media-box">
+            <!-- Imagen de la Plaza de España en Sevilla -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Plaza_de_Espa%C3%B1a%2C_Seville%2C_Spain_-_Views_from_above.jpg/800px-Plaza_de_Espa%C3%B1a%2C_Seville%2C_Spain_-_Views_from_above.jpg" alt="Vista panorámica de la Plaza de España en Sevilla">
+            
+            <!-- Video turístico incrustado desde YouTube -->
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/8vR2wz4Y0uQ" title="Video turístico de Sevilla" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
